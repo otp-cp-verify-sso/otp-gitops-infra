@@ -1,4 +1,4 @@
-kind: Project
 apiVersion: v1
+kind: Namespace
 metadata:
   name: cp4i
