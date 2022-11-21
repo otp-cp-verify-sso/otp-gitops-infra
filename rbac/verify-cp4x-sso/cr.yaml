@@ -4,7 +4,7 @@ metadata:
   name: cp4x-verify-cr
 rules:
 - apiGroups: [""] 
-  resources: ["pods", "secrets", "namespaces"]
+  resources: ["secrets", "namespaces"]
   verbs: ["get", "patch", "list"]
 - apiGroups: ["route.openshift.io"] 
   resources: ["routes"]
